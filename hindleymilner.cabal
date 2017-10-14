@@ -1,0 +1,19 @@
+name: hindleymilner
+version: 1.0
+cabal-version: 1.24.2.0
+build-type: Simple
+license: AllRightsReserved
+stability: experimental
+x-ghc-framework-version: 7.10.3-5.18-2
+x-last-ide-version: HfM1.3.2
+Executable hindleymilner
+  default-language: Haskell2010
+  main-is: Main.hs
+  buildable: True
+  build-depends:
+      base -any,
+      containers -any,
+      bytestring -any,
+      HUnit -any,
+      mtl -any,
+      attoparsec -any
